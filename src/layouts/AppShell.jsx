@@ -55,14 +55,11 @@ const AppShell = () => {
             <div className="flex-1 flex flex-col relative overflow-hidden">
                 {/* Header */}
                 <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-6 z-10">
-                    <div className="flex items-center md:hidden">
-                        <button className="p-2 text-slate-600">
+                    <div className="flex items-center">
+                        <button className="p-2 text-slate-600 md:hidden">
                             <Menu size={24} />
                         </button>
-                        <h1 className="ml-3 font-bold text-slate-900">Prep</h1>
-                    </div>
-                    <div className="hidden md:block">
-                        <span className="text-slate-400 text-sm">Welcome back, Developer</span>
+                        <h1 className="ml-2 md:ml-0 font-bold text-slate-900">Placement Prep</h1>
                     </div>
                     <div className="flex items-center space-x-4">
                         <button className="p-2 text-slate-400 hover:text-slate-600 transition-colors">
