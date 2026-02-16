@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KodNest Premium Build System</title>
+    <meta name="description" content="A premium SaaS design system for professional build management." />
+  </head>
+  <body>
+    <div id="app" class="app-container">
+      <!-- Top Bar -->
+      <header class="top-bar">
+        <div class="project-name">KodNest Premium</div>
+        <div class="progress-indicator">Step 1 / 12</div>
+        <div class="status-badge">In Progress</div>
+      </header>
+
+      <!-- Context Header -->
+      <section class="context-header">
+        <h1>Foundation & Design System</h1>
+        <p class="subtext">Establishing the core visual language and structural integrity of the platform.</p>
+      </section>
+
+      <!-- Main Workspace -->
+      <main class="main-layout">
+        <!-- Primary Workspace -->
+        <section class="primary-workspace">
+          <div class="card">
+            <h3>Component Showcase</h3>
+            <p>The "KodNest Premium Build System" follows a philosophy of intentionality. Every element serves a specific purpose, maintaining a calm and confident interface.</p>
+            
+            <div style="margin-top: 40px;">
+              <h4>Typography</h4>
+              <p>The system uses Serif headings for confidence and Sans-serif body text for clarity. Line heights are generous, ensuring readability across all devices.</p>
+            </div>
+
+            <div style="margin-top: 40px;">
+              <h4>Interaction Examples</h4>
+              <div style="display: flex; gap: 16px; margin-top: 16px;">
+                <button class="btn btn-primary">Primary Action</button>
+                <button class="btn btn-secondary">Secondary Action</button>
+              </div>
+            </div>
+
+            <div style="margin-top: 40px;">
+              <h4>Form Elements</h4>
+              <div class="input-group">
+                <label for="example-input">Input Label</label>
+                <input type="text" id="example-input" placeholder="Enter information...">
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Layout Principles</h3>
+            <p>Whitespace is treated as a first-class citizen. We adhere to a strict 8px-based spacing system to ensure consistency and visual breathing room.</p>
+          </div>
+        </section>
+
+        <!-- Secondary Panel -->
+        <aside class="secondary-panel">
+          <div class="card">
+            <h4>Next Step</h4>
+            <p class="muted" style="margin-top: 8px;">Follow the architectural guidelines to begin implementation.</p>
+            
+            <div class="prompt-box">
+npx kodnest-build init --template premium
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 16px;">
+              <button class="btn btn-secondary">Copy Prompt</button>
+              <button class="btn btn-primary">Build System</button>
+              <button class="btn btn-secondary" style="border-color: var(--success); color: var(--success);">It Worked</button>
+              <button class="btn btn-secondary" style="border-color: #d32f2f; color: #d32f2f;">Error Report</button>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <!-- Proof Footer -->
+      <footer class="proof-footer">
+        <label class="checklist-item">
+          <input type="checkbox"> UI Built
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox"> Logic Working
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox"> Test Passed
+        </label>
+        <label class="checklist-item">
+          <input type="checkbox"> Deployed
+        </label>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
