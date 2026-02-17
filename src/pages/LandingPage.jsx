@@ -8,8 +8,8 @@ const LandingPage = () => {
             {/* Hero Section */}
             <header className="px-6 py-24 md:py-32 bg-slate-50 border-b">
                 <div className="max-w-6xl mx-auto text-center">
-                    <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
-                        Ace Your <span className="text-primary">Placement</span>
+                    <h1 className="text-5xl md:text-6xl font-serif font-bold text-slate-900 mb-6 tracking-tight">
+                        Ace Your <span className="text-primary italic">Placement</span>
                     </h1>
                     <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
                         Practice, assess, and prepare for your dream job with our comprehensive placement readiness platform.
